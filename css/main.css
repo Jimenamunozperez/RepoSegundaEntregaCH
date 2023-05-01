@@ -4,62 +4,6 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-.botonera {
-  background-color: rgb(107, 135, 191);
-}
-.botonera ul li {
-  margin-left: 5px;
-}
-.botonera ul li a {
-  color: #8C783B 2px;
-  font-size: 1em;
-}
-.botonera ul li a:hover {
-  color: grey;
-}
-
-.about {
-  padding: 10px 0;
-}
-.about box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.about_img-reverse {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  height: 40%;
-  width: 60%;
-  margin: 6em;
-  border: 6em;
-}
-.about_img-reverse:hover {
-  border: #8C783B 2px;
-  cursor: pointer;
-}
-.about_heading-center {
-  text-align: center;
-  margin: 6 em;
-  padding-left: 20em;
-}
-.about_text-md-centro {
-  font-size: 1.8em;
-  margin: 1em;
-  border: 3em;
-}
-
-.contacme-left {
-  text-align: center;
-  margin: 10px 0;
-  padding-left: 60px;
-}
-
-.one::first-letter {
-  color: black;
-}
-
 h1, h2 {
   margin: 10px 0;
   color: rgb(8, 7, 7);

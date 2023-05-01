@@ -1,18 +1,18 @@
 nav{
-    display: flex;
+    display:flex auto;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position:sticky 
     top:0;
-    left:0;
+    left: 25px;
     width:100%;
-    background-color:rgba(93, 184, 240, 0.5);
-    padding:10px 30px;
-    height:auto;
+    background-color: rgb(107, 135, 191);
+    padding:10px 20px;
+    height: 10px;
    
     img{
-        width: 350px;
+        width: 200px;
     }
     ul{
         display: flex;
@@ -97,9 +97,3 @@ nav{
                             .one::first-letter{
                                 color: black;
                 }
-         
-
-
-
-
-
