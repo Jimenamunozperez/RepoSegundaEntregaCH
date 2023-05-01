@@ -1,0 +1,28 @@
+//colores
+$maincolor:rgb(107, 135, 191);
+$secondarycolor:grey;
+$keycolor:rgb(8, 7, 7);
+$basecolor:#8C783B;
+
+
+//fonts
+$mainfonts: 'Roboto', sans-serif;
+
+//tamaños
+$textSm:.8em;
+$textMd:1em;
+$textLg:2em;
+$textXl:3em;
+
+//font weight
+$fontLight:100;
+$fontBold:600;
+$fontRegular:400;
+
+p{
+    color: $maincolor;
+    font-family: $mainfonts
+    
+}
+
+

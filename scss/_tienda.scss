@@ -1,0 +1,208 @@
+.tienda{
+        display: grid;
+        grid-template-columns: 20% repeat(2,1fr);
+        grid-template-rows: 80px repeat(3,300px);
+        gap: 5px;
+        grid-template-areas: 
+        'actions actions actions'
+        'filters uno uno'
+        'filters dos tres'
+        'filters cuatro cinco'
+        'filters seis seis';
+        
+         .filters{
+                grid-area:filters;
+                padding: 0 20px 30px
+             }
+          a{
+            color: rgb(173, 173, 252);
+            font-size: 1.3em;
+            text-decoration: none;
+            margin-bottom: 4px;
+            text-transform: lowercase;
+            &:hover{
+                 color:$basecolor;
+                } 
+              } 
+             span{
+                    display: block;
+                    color:$keycolor;
+                    margin: 10px 0;
+                    letter-spacing: 1px;
+             } 
+             select{
+                    color:$keycolor;
+                    border: none;
+                    background-color: white;
+                    margin-bottom: 10px;
+                    font-size: 1.4em;
+                 }   
+
+                 li{ 
+                    padding-left: 10px;
+                    list-style: none;
+                  }  
+         
+            .actions{ 
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center; 
+                    padding: 0 30px;
+                    grid-area: actions; 
+              button{ 
+
+                    margin-left: 10px;
+                    background-color:$basecolor;
+                    color: white;
+                    padding: 6px;
+                    border: none;
+                    border-radius: 3px;
+                }
+            }
+             input{
+                 padding: 6px;
+                 border-radius: 3px;
+                 border: none;
+                 background-color: white;
+             }
+        .prop1{
+            grid-area: uno;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          p{
+             width: 50%;
+             margin-left: 50px;
+          }
+
+        }
+
+        .prop2{
+            grid-area: dos;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            flex-direction: row-reverse;
+
+            p{
+                width: 50%;
+                margin-top: auto;
+                padding-right: 20px; 
+            }
+         }
+
+         .prop3{
+                grid-area: tres;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+          }
+
+          .prop4{
+                grid-area: cuatro;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .prop5{
+                    grid-area: cinco;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+             }
+
+             .prop6 {
+                    grid-area: seis;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+             }
+
+             .grid{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(5,20vh);
+                    grid-template-areas: 
+                    'one''two'
+                    'tree''four''five';
+            }  
+            .one{ 
+                background-color: blue;
+                grid-area:one;  
+        } 
+            .two{ 
+                background-color: aqua;
+                grid-area: two;
+            }
+
+            .tree{
+                background-color: rgb(88, 88, 173); 
+                grid-area: tree; 
+
+            }
+
+            .foure{
+                background-color: rgb(51, 51, 77); 
+                grid-area: foure; 
+             }
+
+             .five{  
+                background-color: rgb(14, 14, 61);
+                grid-area: five;
+            }
+
+            .six{  
+                background-color: rgb(129, 129, 145);
+                grid-area: six;
+            }
+}            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+            
+
+            
+
+            
+
+             
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

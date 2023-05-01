@@ -23,7 +23,7 @@ body{
 }
     p{
     color: black;
-    font font-weight: 300;
+    font-weight: 300;
     font-size: 2rem;
     line-height: 2.1rem;
     text-align: center
@@ -69,9 +69,9 @@ h2 {
         justify-content: space-between;
         align-items: center;
         position:sticky 
-        top: 0
-        left: 0;
-        width: 100%;
+        top:0;
+        left:0;
+        width:100%;
         background-color: rgba(93, 184, 240, 0.5);
         padding: 10px 30px;
         height: auto;
@@ -515,7 +515,7 @@ h2 {
 
          .about_text-md-centro{
                                font-size: 1.8em;
-                               margin
+                               margin:1em
                                border: 3em;
          }
 
@@ -572,114 +572,114 @@ h2 {
 
          
 
-             @media  (width < 780px){
+         @media  (width < 780px){
                 
                 
-                .tienda {
-                        grid-template-columns: 1fr;
-                        grid-template-rows: repeat(6,auto);
-                        grid-template-areas: 
-                        'actions' 
-                        'filters'
-                        'one'
-                        'two'
-                        'tree'
-                        'foure'
-                        'five'
-                        'six';
-                     }
+            .tienda {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(6,auto);
+                    grid-template-areas: 
+                    'actions' 
+                    'filters'
+                    'one'
+                    'two'
+                    'tree'
+                    'foure'
+                    'five'
+                    'six';
+                 }
 
 
-                     .tienda .prop1{
-                                    flex-direction: column;
-                                    
-                                }
+                 .tienda .prop1{
+                                flex-direction: column;
                                 
-                     
+                            }
+                            
+                 
 
-                     nav {
-                         justify-content: center;
+                 nav {
+                     justify-content: center;
 
-                     }
+                 }
 
-                     nav ul {
-                              display: none;
-                     }
+                 nav ul {
+                          display: none;
+                 }
 
-                     .filters span,
-                     .filters ul {
-                                 display:none;
-                     }
+                 .filters span,
+                 .filters ul {
+                             display:none;
+                 }
 
-                     .filters select{
-                                     margin-top: 10px;
-                                     width: 400px;
-                                     background-color: rgb(179, 176, 176);
-                                     padding: 8px;
-                                     border-radius: 4px;
+                 .filters select{
+                                 margin-top: 10px;
+                                 width: 400px;
+                                 background-color: rgb(179, 176, 176);
+                                 padding: 8px;
+                                 border-radius: 4px;
 
-                     }
+                 }
 
-                     .actions{
-                              justify-content: center;
-                              margin-top: 20px;
-                              
-                     }
+                 .actions{
+                          justify-content: center;
+                          margin-top: 20px;
+                          
+                 }
 
-                     .actions input {
-                                  width: 350px;
-                                  background-color:rgb(179, 176, 176); 
+                 .actions input {
+                              width: 350px;
+                              background-color:rgb(179, 176, 176); 
 
-                     }
+                 }
 
-                     .tienda section {
-                                     padding: 10px;
-                                     margin: 10px;
+                 .tienda section {
+                                 padding: 10px;
+                                 margin: 10px;
 
-                     }
+                 }
 
-                     footer {
-                            flex-direction: column;
+                 footer {
+                        flex-direction: column;
 
-                     }
+                 }
 
-                     footer div:nth-child(2) {
-                                             margin: 10px 0;
+                 footer div:nth-child(2) {
+                                         margin: 10px 0;
 
-                     }
+                 }
 
-                     footer a {
-                             font-size: 1.4em;
+                 footer a {
+                         font-size: 1.4em;
 
-                     }
+                 }
 
-                     footer svg { 
-                                width: 40px;
-                                
-                     }
-
-
-                     .container figure { 
-                                         width: 100%;
-
-                     }
+                 footer svg { 
+                            width: 40px;
+                            
+                 }
 
 
-                     .cotainer figure p { 
-                                         padding: 0 20px;
-                                         font-size: 1.8em;
-                     }
+                 .container figure { 
+                                     width: 100%;
+
+                 }
 
 
-                    .container figure button {
-                                               width: 90%;
-                                              
-                    }
+                 .cotainer figure p { 
+                                     padding: 0 20px;
+                                     font-size: 1.8em;
+                 }
 
-                    p{
-                        font-size: 2em;
-                        padding: 0 10px;
-                    }
+
+                .container figure button {
+                                           width: 90%;
+                                          
+                }
+
+                p{
+                    font-size: 2em;
+                    padding: 0 10px;
+                }
 
 }
             

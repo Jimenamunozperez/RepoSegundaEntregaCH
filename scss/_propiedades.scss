@@ -1,0 +1,37 @@
+.container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: grid;
+    justify-content: space-between;
+    padding: 20px 40px;
+    
+    figure{
+             width: 500px;
+             border-radius: 250px ;
+             margin: 30px 0;
+             p{
+                font-size: 1rem;
+                line-height: 1.2rem;
+                margin: 20px 0;
+                text-align: left;
+             }
+         img{
+            width: 100%; 
+        }
+         figcaption{
+            color:$basecolor;
+            margin-bottom: 10px;
+            font-size: 2.2rem
+        }
+        button{  
+            background-color:$basecolor;
+            color: white;
+            border: none;
+            padding: 6px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+     }
+
+}

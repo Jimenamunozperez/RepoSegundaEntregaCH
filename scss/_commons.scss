@@ -1,0 +1,115 @@
+h1, h2 {
+    margin: 10px 0;
+    color:$keycolor;
+    font-weight:$fontRegular;
+    font-style: italic;
+    text-align: center;
+}
+
+  
+.container-form {
+                width: 100%;
+                max-width: 1100px;
+                margin: 50px;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 50px;
+                margin-top: 90px;
+}       
+
+.container-form h2 { 
+                    margin-bottom: 15px;
+                    font-size:$textLg;
+                    
+} 
+
+
+.container-form p { 
+                   display: flex;
+                   font-size: 17px;
+                   line-height: 1.6;
+                   margin-bottom: 30px;
+}
+
+.container-form form .campo, textarea{ 
+                             
+      width: 40%; 
+      padding: 10px 10px;
+      font-size: 15px;
+      border: 1px solid $secondarycolor;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      outline: 0px;
+      display: flex;
+}
+
+.container-form form textarea{
+                            
+                max-width: 530px;
+                min-width: 530px;
+                min-height: 146px;
+                max-height: 150px;
+
+}
+
+.container-form  .btn-send{
+                     padding: 15px;
+                     font-size: 16px;
+                     border: none;
+                     
+                     outline: 0px;
+                     background-color: rgb(209, 207, 207);
+                     color: white;
+                     cursor: pointer;
+                     transition: all 300ms ease;
+
+}
+
+.container-form  .btn-send:hover{
+     
+               background-color:$basecolor;
+         
+}
+
+p{
+    color: $secondarycolor;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    padding: 0 20px;
+    font-weight: $fontLight;
+}
+
+label{
+     color:$maincolor;
+}
+
+
+footer{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color:$basecolor;
+
+    a{
+        text-decoration: none;
+    }
+    svg{
+        margin-right: 10px;
+            width: 30px;
+            fill: white
+    }
+    ul{ 
+        list-style: none;
+        li{
+            a{
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: white;
+            }
+        }
+    }
+
+}
+
+

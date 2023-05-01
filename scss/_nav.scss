@@ -1,0 +1,105 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky 
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgba(93, 184, 240, 0.5);
+    padding:10px 30px;
+    height:auto;
+   
+    img{
+        width: 350px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+       li{
+        margin-right: 10px;
+        font-size: 2rem;
+       }
+          a{
+            color:$keycolor;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+           }
+           :hover{ 
+                color:$keycolor;
+                text-decoration: underline;
+                cursor: pointer;
+           }
+    }
+}
+
+.botonera{
+    background-color: $maincolor;
+    ul{
+        li{
+            margin-left: 5px;
+            a{
+                color:$basecolor 2px;
+                font-size: $textMd;
+                &:hover{
+                    color:$secondarycolor;
+                }
+
+            }
+        }
+    }
+}
+
+
+                .about{ 
+                    padding: 10px 0;
+                    box{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                        }
+                        &_img-reverse{
+                                display: flex;
+                                flex-direction: row-reverse;
+                                align-items: flex-start;
+                                height: 40% ;
+                                width: 60%; 
+                                margin: 6em;
+                                border: 6em           
+                        } 
+
+                            &_img-reverse:hover{
+                                        border: #8C783B 2px;
+                                        cursor: pointer;
+                                }
+
+                        &_heading-center{
+                                    text-align: center;
+                                    margin: 6 em ;
+                                    padding-left: 20em;  
+                        }
+                        
+                        &_text-md-centro{
+                                    font-size: 1.8em;
+                                    margin:1em;
+                                    border:3em;
+                        } 
+
+                    } 
+                            .contacme-left{
+                                text-align: center;
+                                margin: 10px 0;
+                                padding-left: 60px;
+                            }
+
+                            .one::first-letter{
+                                color: black;
+                }
+         
+
+
+
+
+
