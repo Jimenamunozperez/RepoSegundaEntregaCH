@@ -51,19 +51,8 @@ h2 {
 }
      
 
-      
     
-    
-
-
-
-
-
-
-
-
-
-     nav{
+   nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -575,6 +564,15 @@ h2 {
              @media  (width < 780px){
                 
                 
+                nav {
+                    justify-content: center;
+
+                }
+
+                nav ul {
+                         display: none;
+                }
+                
                 .tienda {
                         grid-template-columns: 1fr;
                         grid-template-rows: repeat(6,auto);
@@ -594,17 +592,15 @@ h2 {
                                     flex-direction: column;
                                     
                                 }
+
+                                .tienda section {
+                                    padding: 10px;
+                                    margin: 10px;
+
+                    }
                                 
                      
 
-                     nav {
-                         justify-content: center;
-
-                     }
-
-                     nav ul {
-                              display: none;
-                     }
 
                      .filters span,
                      .filters ul {
@@ -632,11 +628,7 @@ h2 {
 
                      }
 
-                     .tienda section {
-                                     padding: 10px;
-                                     margin: 10px;
-
-                     }
+                     
 
                      footer {
                             flex-direction: column;

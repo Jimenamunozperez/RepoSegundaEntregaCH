@@ -1,0 +1,95 @@
+nav{
+    height: auto;
+    padding: 10px 30px;
+    background-color:$maincolor;
+    width:100%;
+    left: 0;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+    img{
+        width: 350px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            margin-right: 10px;
+            font-size: 2rem;
+            a{
+               color: $basecolor;
+               text-decoration: none;
+               font-family: 'Roboto', sans-serif;
+               font-weight: 400;  
+               &:hover{
+                     color:$basecolor;
+                     text-decoration: underline;
+                     cursor: pointer;
+               }
+            }
+          }
+       }
+}
+
+//footer
+footer{
+    padding: 10px 30px;
+    display:flex;
+    justify-content:space-between; 
+    align-items: center;
+    background-color:$keycolor;
+
+    a{
+      text-decoration: none;
+    }
+    svg{
+        margin-right: 10px;
+        width: 30px;
+        fill: white;
+    }
+
+    ul{
+        list-style: none;
+        li{
+            a{
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: white;
+            }
+        }
+    }
+}
+
+//container
+.container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: grid;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.container figure { 
+    width: 500px;
+    border-radius: 250px ;
+    margin: 30px 0;
+}
+
+.container figure figcaption{
+    color: #8C783B;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+.container figure button{
+    background-color: #8C783B;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 20px;
+}

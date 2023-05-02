@@ -1,0 +1,94 @@
+@media  (width < 780px) {
+    nav {
+      justify-content: center;
+  
+      ul {
+        display: none;
+      }
+    }
+  }
+  
+  .tienda {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: 
+      'actions' 
+      'filters'
+      'one'
+      'two'
+      'tree'
+      'foure'
+      'five'
+      'six';
+    
+    .prop1 {
+      flex-direction: column;
+    }
+    
+    section {
+      padding: 10px;
+      margin: 10px;
+    }
+    
+    .filters {
+      span,
+      ul {
+        display: none;
+      }
+      
+      select {
+        margin-top: 10px;
+        width: 400px;
+        background-color: rgb(179, 176, 176);
+        padding: 8px;
+        border-radius: 4px;
+      }
+    }
+    
+    .actions {
+      justify-content: center;
+      margin-top: 20px;
+      
+      input {
+        width: 350px;
+        background-color: rgb(179, 176, 176); 
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    
+    div:nth-child(2) {
+      margin: 10px 0;
+    }
+    
+    a {
+      font-size: 1.4em;
+    }
+    
+    svg {
+      width: 40px;
+    }
+  }
+  
+  .container {
+    figure {
+      width: 100%;
+      
+      p {
+        padding: 0 20px;
+        font-size: 1.8em;
+      }
+      
+      button {
+        width: 90%;
+      }
+    }
+  }
+  
+  p {
+    font-size: 2em;
+    padding: 0 10px;
+  }
+  
