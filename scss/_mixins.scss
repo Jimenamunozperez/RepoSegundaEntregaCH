@@ -7,8 +7,35 @@
     color:$keycolor;
 }
 
-.main-conteiner{
+.main-container{
         width: 100%;
         padding: 20px 50px;
         overflow-x: auto; 
+}
+
+@mixin textos($size,$padding,$color){
+    font-family: $mainFonts;
+    font-size: $size;
+    padding: $padding;
+    color: $color;
+}
+
+p{
+    @include textos (1.1em, 10px,black)
+}
+h1{
+    @include textos (3em,20px,$secundarycolor)
+}
+
+@include display($direction,$justify,$align,$wrap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+div{
+    @include display (row,center,center,nowrap);
+    
 }
