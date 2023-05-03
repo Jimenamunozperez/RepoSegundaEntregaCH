@@ -51,19 +51,8 @@ h2 {
 }
      
 
-      
     
-    
-
-
-
-
-
-
-
-
-
-     nav{
+   nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -575,6 +564,7 @@ h2 {
          @media  (width < 780px){
                 
                 
+<<<<<<< HEAD
             .tienda {
                     grid-template-columns: 1fr;
                     grid-template-rows: repeat(6,auto);
@@ -592,11 +582,48 @@ h2 {
 
                  .tienda .prop1{
                                 flex-direction: column;
+=======
+                nav {
+                    justify-content: center;
+
+                }
+
+                nav ul {
+                         display: none;
+                }
+                
+                .tienda {
+                        grid-template-columns: 1fr;
+                        grid-template-rows: repeat(6,auto);
+                        grid-template-areas: 
+                        'actions' 
+                        'filters'
+                        'one'
+                        'two'
+                        'tree'
+                        'foure'
+                        'five'
+                        'six';
+                     }
+
+
+                     .tienda .prop1{
+                                    flex-direction: column;
+                                    
+                                }
+
+                                .tienda section {
+                                    padding: 10px;
+                                    margin: 10px;
+
+                    }
+>>>>>>> nueva-rama
                                 
                             }
                             
                  
 
+<<<<<<< HEAD
                  nav {
                      justify-content: center;
 
@@ -605,6 +632,8 @@ h2 {
                  nav ul {
                           display: none;
                  }
+=======
+>>>>>>> nueva-rama
 
                  .filters span,
                  .filters ul {
@@ -632,11 +661,15 @@ h2 {
 
                  }
 
+<<<<<<< HEAD
                  .tienda section {
                                  padding: 10px;
                                  margin: 10px;
 
                  }
+=======
+                     
+>>>>>>> nueva-rama
 
                  footer {
                         flex-direction: column;

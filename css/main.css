@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+<<<<<<< HEAD
 p {
   color: rgb(107, 135, 191);
   font-family: "Roboto", sans-serif;
@@ -12,6 +13,156 @@ h1, h2 {
   text-align: center;
 }
 
+=======
+.btn-gral {
+  padding: 10px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  color: #8C783B;
+}
+
+.main-conteiner {
+  width: 100%;
+  padding: 20px 50px;
+  overflow-x: auto;
+}
+
+nav {
+  height: auto;
+  padding: 10px 30px;
+  background-color: rgb(107, 135, 191);
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+nav img {
+  width: 350px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+nav ul li a:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8C783B;
+}
+footer a {
+  text-decoration: none;
+}
+footer svg {
+  margin-right: 10px;
+  width: 30px;
+  fill: white;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: grid;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.container figure {
+  width: 500px;
+  border-radius: 250px;
+  margin: 30px 0;
+}
+
+.container figure figcaption {
+  color: #8C783B;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+}
+
+.container figure button {
+  background-color: #8C783B;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  color: rgb(107, 135, 191);
+}
+
+body {
+  background-image: url(../background/background_edificios);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  color: black;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+.box-top {
+  text-align: center;
+  padding: 6px 0;
+  background-color: aliceblue;
+  font-size: 1.6rem;
+  color: grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+>>>>>>> nueva-rama
 .container-form {
   width: 100%;
   max-width: 1100px;
@@ -22,19 +173,32 @@ h1, h2 {
   margin-top: 90px;
 }
 
+<<<<<<< HEAD
 .container-form h2 {
   margin-bottom: 15px;
   font-size: 2em;
 }
 
 .container-form p {
+=======
+h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+p {
+>>>>>>> nueva-rama
   display: flex;
   font-size: 17px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .container-form form .campo, textarea {
+=======
+.campo, textarea {
+>>>>>>> nueva-rama
   width: 40%;
   padding: 10px 10px;
   font-size: 15px;
@@ -43,8 +207,13 @@ h1, h2 {
   border-radius: 3px;
   outline: 0px;
   display: flex;
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 146px;
+  max-height: 150px;
 }
 
+<<<<<<< HEAD
 .container-form form textarea {
   max-width: 530px;
   min-width: 530px;
@@ -166,4 +335,314 @@ footer ul li a {
     font-size: 2em;
     padding: 0 10px;
   }
+=======
+.btn-send {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background-color: rgb(209, 207, 207);
+  color: white;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.btn-send:hover {
+  background-color: #8C783B;
+}
+
+.tienda {
+  display: grid;
+  grid-template-columns: 20% repeat(2, 1fr);
+  grid-template-rows: 80px repeat(3, 300px);
+  gap: 5px;
+  grid-template-areas: "actions actions actions" "filters uno uno" "filters dos tres" "filters cuatro cinco" "filters seis seis";
+}
+.tienda .actions {
+  padding: 0 30px;
+  grid-area: actions;
+}
+.tienda .filters {
+  grid-area: filters;
+}
+.tienda .prop1 {
+  grid-area: uno;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tienda .prop1 p {
+  width: 50%;
+  margin-left: 50px;
+}
+.tienda .prop2 {
+  grid-area: dos;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row-reverse;
+}
+.tienda .prop2 p {
+  width: 50%;
+  margin-top: auto;
+  padding-right: 20px;
+}
+.tienda .prop3 {
+  grid-area: tres;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tienda .prop4 {
+  grid-area: cuatro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tienda .prop5 {
+  grid-area: cinco;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tienda .prop6 {
+  grid-area: seis;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#tienda-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 20vh);
+  grid-template-areas: "one" "two" "tree" "four" "five";
+}
+#tienda-grid .one {
+  background-color: rgb(107, 135, 191);
+  grid-area: one;
+}
+#tienda-grid .two {
+  background-color: rgb(107, 135, 191);
+  grid-area: two;
+}
+#tienda-grid .tree {
+  background-color: rgb(107, 135, 191);
+  grid-area: tree;
+}
+#tienda-grid .four {
+  background-color: rgb(107, 135, 191);
+  grid-area: four;
+}
+#tienda-grid .five {
+  background-color: rgb(107, 135, 191);
+  grid-area: five;
+}
+#tienda-grid .six {
+  background-color: rgb(107, 135, 191);
+  grid-area: six;
+}
+
+.filters {
+  padding: 0 20px 30px;
+}
+.filters a {
+  color: rgb(173, 173, 252);
+  font-size: 1.3em;
+  text-decoration: none;
+  margin-bottom: 4px;
+  text-transform: lowercase;
+}
+.filters a:hover {
+  color: #8C783B;
+}
+.filters span {
+  display: block;
+  color: black;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+.filters select {
+  color: black;
+  border: none;
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+.filters li {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.actions button {
+  margin-left: 10px;
+  background-color: #8C783B;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 3px;
+}
+.actions input {
+  padding: 6px;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+}
+
+.about {
+  padding: 10px 0;
+}
+.about-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about-img-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  height: 40%;
+  width: 60%;
+  margin: 6em;
+  border: 6em;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.actions button {
+  margin-left: 10px;
+  background-color: #8C783B;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 3px;
+}
+.actions input {
+  padding: 6px;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+}
+
+.about {
+  padding: 10px 0;
+}
+.about_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about_img-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  height: 40%;
+  width: 60%;
+  margin: 6em;
+  border: 6em;
+}
+.about_header-center {
+  text-align: center;
+  margin: 6em;
+  padding-left: 20em;
+}
+.about_text-md-centro {
+  font-size: 1.8em;
+  margin: 3em;
+  border: 3em;
+}
+.about .contacme-left {
+  text-align: center;
+  margin: 10px 0;
+  padding-left: 60px;
+}
+.about_img-reverse:hover {
+  border: #8C783B 2px;
+  cursor: pointer;
+}
+.about .one::first-letter {
+  color: black;
+}
+
+@media (width < 780px) {
+  nav {
+    justify-content: center;
+  }
+  nav ul {
+    display: none;
+  }
+}
+.tienda {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "actions" "filters" "one" "two" "tree" "foure" "five" "six";
+}
+.tienda .prop1 {
+  flex-direction: column;
+}
+.tienda section {
+  padding: 10px;
+  margin: 10px;
+}
+.tienda .filters span,
+.tienda .filters ul {
+  display: none;
+}
+.tienda .filters select {
+  margin-top: 10px;
+  width: 400px;
+  background-color: rgb(179, 176, 176);
+  padding: 8px;
+  border-radius: 4px;
+}
+.tienda .actions {
+  justify-content: center;
+  margin-top: 20px;
+}
+.tienda .actions input {
+  width: 350px;
+  background-color: rgb(179, 176, 176);
+}
+
+footer {
+  flex-direction: column;
+}
+footer div:nth-child(2) {
+  margin: 10px 0;
+}
+footer a {
+  font-size: 1.4em;
+}
+footer svg {
+  width: 40px;
+}
+
+.container figure {
+  width: 100%;
+}
+.container figure p {
+  padding: 0 20px;
+  font-size: 1.8em;
+}
+.container figure button {
+  width: 90%;
+}
+
+p {
+  font-size: 2em;
+  padding: 0 10px;
+>>>>>>> nueva-rama
 }/*# sourceMappingURL=main.css.map */
